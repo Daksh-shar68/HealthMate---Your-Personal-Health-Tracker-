@@ -58,9 +58,6 @@ Run the main file
 
 python main.py
 
-👨‍💻 Author
-
-<Your Name> – Diploma in Computer Science Engineering
-📧 [your.email@example.com
-]
-🌐 GitHub Profile
+👨‍💻 Author - <Daksh Sharma> – Diploma in Computer Science Engineering
+📧 Email - [dakshsharm197070@gmail.com]
+🌐 Github Profile - Daksh-Shar68
