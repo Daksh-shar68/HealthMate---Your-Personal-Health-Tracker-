@@ -56,6 +56,7 @@ Automatically generates **medical assessments** and **lifestyle recommendations*
 ```bash
 git clone https://github.com/yourusername/medical-tracker.git
 cd medical-tracker
+```
 
 
 python main.py
