@@ -58,23 +58,23 @@ git clone https://github.com/yourusername/medical-tracker.git
 cd medical-tracker
 ```
 
-2️⃣ Install dependencies
+### 2️⃣ Install dependencies
 Make sure Python 3.8+ is installed, then run:
 ```bash
 pip install -r requirements.txt
 ```
 
-3️⃣ Run the application
+### 3️⃣ Run the application
 ```bash
 streamlit run app.py
 ```
 
-4️⃣ Access it
+### 4️⃣ Access it
 Once running, open your browser at:
 ```bash
 http://localhost:8501
 ```
-🧠 How It Works
+### 🧠 How It Works
 
 1.Add a patient in the sidebar.
 
@@ -89,12 +89,12 @@ http://localhost:8501
     - Download reading history as CSV
     - Delete patients or readings
 
-⚠️ Disclaimer
+### ⚠️ Disclaimer
 This app provides educational and informational suggestions only.
 It is NOT a substitute for professional medical advice, diagnosis, or treatment.
 Always seek a qualified healthcare provider for any health concerns.
 
-🌟 Support
+### 🌟 Support
 If you like this project, give it a ⭐ on GitHub!
 Feedback and contributions are welcome 🙌
 
