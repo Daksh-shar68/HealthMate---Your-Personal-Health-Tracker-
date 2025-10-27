@@ -58,8 +58,45 @@ git clone https://github.com/yourusername/medical-tracker.git
 cd medical-tracker
 ```
 
+2️⃣ Install dependencies
+Make sure Python 3.8+ is installed, then run:
+```bash
+pip install -r requirements.txt
+```
 
-python main.py
+3️⃣ Run the application
+```bash
+streamlit run app.py
+```
+
+4️⃣ Access it
+Once running, open your browser at:
+```bash
+http://localhost:8501
+```
+🧠 How It Works
+
+1.Add a patient in the sidebar.
+
+2.Select the patient and enter their readings.
+
+3.The app:
+    - Saves data to a local SQLite database (data.db)
+    - Displays historical readings in a table
+    - Generates charts and personalized health suggestions
+
+4.You can also:
+    - Download reading history as CSV
+    - Delete patients or readings
+
+⚠️ Disclaimer
+This app provides educational and informational suggestions only.
+It is NOT a substitute for professional medical advice, diagnosis, or treatment.
+Always seek a qualified healthcare provider for any health concerns.
+
+🌟 Support
+If you like this project, give it a ⭐ on GitHub!
+Feedback and contributions are welcome 🙌
 
 👨‍💻 Author - <Daksh Sharma> – Diploma in Computer Science Engineering |
 📧 Email - [dakshsharm197070@gmail.com] |
