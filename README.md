@@ -61,6 +61,6 @@ cd medical-tracker
 
 python main.py
 
-👨‍💻 Author - <Daksh Sharma> – Diploma in Computer Science Engineering
-📧 Email - [dakshsharm197070@gmail.com]
+👨‍💻 Author - <Daksh Sharma> – Diploma in Computer Science Engineering |
+📧 Email - [dakshsharm197070@gmail.com] |
 🌐 Github Profile - Daksh-Shar68
