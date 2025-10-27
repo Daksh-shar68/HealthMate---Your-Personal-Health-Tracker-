@@ -1,60 +1,62 @@
-🩺 HealthMate – Your Personal Health Tracker
+# 🩺 Medical Tracker — Patient Vitals & Health Suggestions  
 
-HealthMate is a Python-based health management system designed to help users monitor and manage their daily health records in an organized way.
-It allows users to record, track, and analyze health metrics like weight, BMI, blood pressure, and daily activity, all from a simple interface.
+A **Streamlit-based health monitoring application** that helps users record, visualize, and analyze patient vitals — including **blood pressure, glucose levels, temperature, and SpO₂** — with **automatic medical insights and lifestyle suggestions**.  
 
-🚀 Features
+---
 
-👤 User registration and login system
+## 🚀 Features  
 
-📊 Add, view, and update health records (weight, BP, sugar level, etc.)
+### 🧍 Patient Management  
+- Add, view, and delete patients easily.  
+- Store optional details such as **DOB**, **sex**, and **notes**.  
 
-🧮 Automatic BMI calculation
+### 📋 Vitals Recording  
+- Record key medical readings:  
+  - **Systolic & Diastolic Blood Pressure (mmHg)**  
+  - **Glucose (mg/dL)**  
+  - **Temperature (°C)**  
+  - **SpO₂ (%)**  
+- Add custom notes for each reading.  
 
-📅 Daily / weekly health tracking
+### 🤖 Smart Health Suggestions  
+Automatically generates **medical assessments** and **lifestyle recommendations** based on latest readings:
+- Blood pressure classification (normal, elevated, hypertensive, etc.)
+- Glucose tolerance and diabetic risk levels
+- Fever or hypothermia detection
+- Low oxygen alerts  
 
-📈 Data visualization using Matplotlib / Plotly
+### 📊 Visualization  
+- Interactive trend charts for:
+  - Blood Pressure (Systolic/Diastolic)
+  - Glucose & SpO₂ levels  
+- View patterns across multiple readings.  
 
-💾 Data storage using SQLite / MySQL
+### 📁 Data Management  
+- Export all readings as a **CSV file**.  
+- Delete any patient or individual reading securely.  
 
-🧠 Built with clean and modular Python OOP structure
+---
 
-🛠 Tech Stack
+## 🛠️ Tech Stack  
 
-Frontend: HTML, CSS (optional if you made a web UI)
+| Component | Technology Used |
+|------------|------------------|
+| **Frontend/UI** | Streamlit |
+| **Database** | SQLite (via SQLAlchemy ORM) |
+| **Visualization** | Matplotlib |
+| **Backend Language** | Python 3 |
+| **ORM** | SQLAlchemy |
+| **Data Handling** | Pandas |
 
-Backend / Logic: Python
+---
 
-Database: SQLite / MySQL
+## ⚙️ Installation  
 
-Libraries Used:
+### 1️⃣ Clone this repository  
+```bash
+git clone https://github.com/yourusername/medical-tracker.git
+cd medical-tracker
 
-tkinter or Flask (for UI)
-
-matplotlib (for graphs)
-
-pandas (for data handling)
-
-sqlite3 or mysql.connector (for database connectivity)
-
-📷 Screenshots
-
-(Add a few images of your app UI, graphs, or dashboard here)
-
-📦 How to Run
-
-Clone this repository
-
-git clone https://github.com/<your-username>/HealthMate.git
-cd HealthMate
-
-
-Install required libraries
-
-pip install -r requirements.txt
-
-
-Run the main file
 
 python main.py
 
